@@ -1,0 +1,233 @@
+{
+  "users": [
+    {
+      "id": 3,
+      "name": "Antenor",
+      "login": "antenor",
+      "email": "antenorq@gmail.com",
+      "password": "$2a$10$fLO8f0QSuHLwff0GpH5lceAWlIzWgNSWfhvAZEptE4fry0OwBMHQW"
+    },
+    {
+      "id": 4,
+      "name": "testt",
+      "login": "testt",
+      "email": "test@gmail.com",
+      "password": "$2a$10$Fwa10kXwUxFXtUktrNTCteUAVJZe9vUx56gQg5D34sGVDIvUJgFem"
+    },
+    {
+      "email": "qqq@gmail.com",
+      "password": "$2a$10$9v0IxPrTcaE80vcS9ckU6.HEoKCXFZ2nHzUCOYx.7TSj/RFnpQ63W",
+      "name": "qqq",
+      "login": "qqq",
+      "id": 5
+    },
+    {
+      "email": "test2@gmail.com",
+      "password": "$2a$10$61WWTG46vwNfrBj2SaKlAOfSu48eS9tkJomdUDFkHIDyrBsAGyjYK",
+      "name": "test2",
+      "login": "test2",
+      "id": 6
+    },
+    {
+      "email": "test3@gmail.com",
+      "password": "$2a$10$.UfQXHAVJYxRrvXLcSUi6OCz4MG4ulilBKrY2cx8gRJEebzuSd9nq",
+      "name": "test3",
+      "login": "test3",
+      "id": 7
+    },
+    {
+      "email": "test4@gmail.com",
+      "password": "$2a$10$b0Vy9JAbK3hgscqNz0ev4OWHYXmK3RfT1.EXYUkyfxdl86MVvcppi",
+      "name": "test4",
+      "login": "test4",
+      "id": 8
+    }
+  ],
+  "incomes": [
+    {
+      "id": 2,
+      "category": 1,
+      "description": "company 1",
+      "value": "2002",
+      "date": "2023-05-29",
+      "user_id": 3
+    },
+    {
+      "id": 25,
+      "category": 1,
+      "description": "salarioo",
+      "value": "3700",
+      "date": "2023-02-21T05:00:00.000Z",
+      "user_id": 4
+    },
+    {
+      "id": 59,
+      "category": 1,
+      "description": "money extra",
+      "value": "551",
+      "date": "2023-03-28",
+      "user_id": 3
+    },
+    {
+      "id": 60,
+      "category": 1,
+      "description": "test2",
+      "value": "3",
+      "date": "2023-03-28",
+      "user_id": 4
+    },
+    {
+      "category": 15,
+      "description": "test",
+      "value": "54",
+      "date": "2023-03-31",
+      "user_id": 6,
+      "id": 61
+    },
+    {
+      "category": 16,
+      "description": "igloo",
+      "value": "3600",
+      "date": "2023-03-31",
+      "user_id": 7,
+      "id": 63
+    },
+    {
+      "category": 2,
+      "description": "freelance march",
+      "value": "1000",
+      "date": "2023-03-31",
+      "user_id": 3,
+      "id": 64
+    }
+  ],
+  "expenses": [
+    {
+      "category": 3,
+      "description": "bbbbb",
+      "value": "2222.00",
+      "date": "2023-02-02T05:00:00.000Z",
+      "id": 4
+    },
+    {
+      "id": 5,
+      "category": 4,
+      "description": "seguro carroo0",
+      "value": "256.20",
+      "date": "2023-02-21T05:00:00.000Z"
+    },
+    {
+      "id": 6,
+      "category": 3,
+      "description": "ioi",
+      "value": "4589",
+      "date": "2023-03-04"
+    },
+    {
+      "id": 7,
+      "category": 3,
+      "description": "asas",
+      "value": "2152",
+      "date": "2023-03-28",
+      "user_id": 4
+    },
+    {
+      "id": 8,
+      "category": 4,
+      "description": "test2",
+      "value": "3",
+      "date": "2023-03-28",
+      "user_id": 4
+    },
+    {
+      "id": 9,
+      "category": 4,
+      "description": "payment car",
+      "value": "270",
+      "date": "2023-03-31",
+      "user_id": 3
+    },
+    {
+      "id": 10,
+      "category": 3,
+      "description": "apartment",
+      "value": "1900",
+      "date": "2023-03-30",
+      "user_id": 3
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "category_type": 1,
+      "description": "Salary",
+      "user_id": 3
+    },
+    {
+      "id": 2,
+      "category_type": 1,
+      "description": "Free-lance",
+      "user_id": 3
+    },
+    {
+      "id": 10,
+      "category_type": 1,
+      "description": "Salary user 4",
+      "user_id": 4
+    },
+    {
+      "id": 11,
+      "category_type": 1,
+      "description": "Free-lance user 4",
+      "user_id": 4
+    },
+    {
+      "id": 3,
+      "category_type": 2,
+      "description": "House Rent",
+      "user_id": 3
+    },
+    {
+      "category_type": 2,
+      "description": "Car Insurance",
+      "id": 4,
+      "user_id": 3
+    },
+    {
+      "id": 13,
+      "category_type": 2,
+      "description": "House Rent",
+      "user_id": 4
+    },
+    {
+      "category_type": 2,
+      "description": "Car Insurance",
+      "id": 14,
+      "user_id": 4
+    },
+    {
+      "id": 9,
+      "category_type": 1,
+      "description": "Extra",
+      "user_id": 3
+    },
+    {
+      "category_type": 1,
+      "description": "category user 6",
+      "user_id": 6,
+      "id": 15
+    },
+    {
+      "id": 16,
+      "category_type": 1,
+      "description": "Salary",
+      "user_id": 7
+    },
+    {
+      "category_type": 2,
+      "description": "Apartment Rent",
+      "user_id": 7,
+      "id": 17
+    }
+  ]
+}
