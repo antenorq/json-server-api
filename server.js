@@ -14,7 +14,6 @@ server.use(
 server.db = router.db;
 server.use(auth);
 server.use(router);
-server.use(cors());
 server.listen(PORT, () => {
   console.log("Server is running");
 });
