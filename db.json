@@ -40,7 +40,14 @@
       "password": "$2a$10$b0Vy9JAbK3hgscqNz0ev4OWHYXmK3RfT1.EXYUkyfxdl86MVvcppi",
       "name": "test4",
       "login": "test4",
-      "id": 8
+      "id,": 8
+    },
+    {
+      "email": "demo@demo.com",
+      "password": "$2a$10$D367eTF8RM.F5WLG9lwpyuDEaSSNWlEOCtV4F0kulAYKEneP5E6ri",
+      "name": "demo",
+      "login": "demo@demo.com",
+      "id": 9
     }
   ],
   "incomes": [
@@ -228,6 +235,44 @@
       "description": "Apartment Rent",
       "user_id": 7,
       "id": 17
+    },
+    {
+      "category_type": 1,
+      "description": "Salary",
+      "user_id": 9,
+      "id": 18
+    },
+    {
+      "category_type": 2,
+      "description": "Apt Rent",
+      "user_id": 9,
+      "id": 19
+    }
+  ],
+  "todo": [
+    {
+      "user_id": 1,
+      "id": 1,
+      "title": "create react redux app",
+      "completed": false
+    },
+    {
+      "user_id": 1,
+      "id": 2,
+      "title": "create react backend api express, mongo",
+      "completed": false
+    },
+    {
+      "user_id": 1,
+      "id": 3,
+      "title": "create todo list react app ",
+      "completed": true
+    },
+    {
+      "user_id": 1,
+      "id": 4,
+      "title": "create react crud app using tailwind",
+      "completed": true
     }
   ]
 }
